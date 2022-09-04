@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.logo {
+    background-image: url(./dc-logo.jpg) ;
+    height: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    display:flex;
+    justify-content: center;   
+    gap: 20px ;
+    align-content: center;
+    background-color: black;
+
+}
+.image{
+    height: 500px;    
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 33%;
+    transition: 1s ease;
+}
+
+.image1 {
+    background-image: url(./flash.jpg) ;
+}
+
+.image2 {
+ background-image: url(./aquaman.jpg);
+}
+
+.image3 {
+    background-image: url(./cyborg.jpg);
+}
+
+.image:hover {
+    width: 100%;
+}
